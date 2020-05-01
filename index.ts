@@ -61,10 +61,6 @@ class Magnifier {
 		if (canMoveXAxis)
 			this.fullSizeImage.style.setProperty('left', `${vector.x}px`);
 	}
-
-	changeFullSizeImage(fullSizeImageSrc: string, miniature: HTMLElement) {
-		this.fullSizeImage.setAttribute('src', fullSizeImageSrc);
-	}
 }
 
 let magnifier = new Magnifier(fullSizeImageContainer, miniatureImage);
