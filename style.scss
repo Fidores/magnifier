@@ -43,10 +43,7 @@ img {
     &__miniature {
         position: relative;
         background-color: green;
-
-        &--active {
-            cursor: crosshair;
-        }
+        cursor: crosshair;
     }
 
     &__cursor {
